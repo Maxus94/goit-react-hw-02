@@ -1,0 +1,15 @@
+.buttonsList {
+    display: flex;
+    column-gap: 8px;
+    margin-bottom: 16px;
+}
+
+.feedbackButton {
+    border-color: black;
+    border-radius: 4px;
+    background-color: #EEE;
+}
+
+.feedbackButton:hover {
+    background-color: #DDD;
+}

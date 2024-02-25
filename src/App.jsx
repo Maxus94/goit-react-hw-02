@@ -13,13 +13,6 @@ function App() {
     } else return { good: 0, neutral: 0, bad: 0 };
   });
 
-  // const onLeaveFeedback = (option) => {
-  //   setValues({
-  //     ...values,
-  //     [option]: values[option] + 1,
-  //   });
-  // };
-
   const totalFeedback = values.good + values.neutral + values.bad;
 
   useEffect(
